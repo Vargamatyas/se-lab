@@ -80,6 +80,7 @@ public class GT4500 implements SpaceShip {
           firingSuccess = primaryTorpedoStore.fire(1);
           boolean wa_secondary = secondaryTorpedoStore.fire(1); 
           firingSuccess = firingSuccess || wa_secondary ;
+          
         break;
     }
 
